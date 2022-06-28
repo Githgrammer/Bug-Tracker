@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-color:aliceblue;
+}
+
+.lista_contenedor{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:blanchedalmond;
+}
+
+
+.train{
+    
+  width: 100%;
+}
+
+.solved{
+    color:green;
+ 
+}
+
+.forma{
+width: 100%;
+ margin: 100px 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+text-align: left;
+
+}
+
+.forma-grupo{
+ width: 100%;
+
+}
+
+.issues_title,
+.issues{
+    width: 100%;
+    padding: 0.5rem;
+    text-transform: capitalize;
+   margin-bottom: 20px;
+}
+
+.send_issue{
+    
+    padding:10px 50px;
+}
+
+.parrafo_issue{
+    text-transform: capitalize;
+    color:black;
+}
+
+.issue_container{
+    text-align: justify;
+    border:solid black;
+    width: 100%;
+    padding:2rem;
+}
+
+.id_issue{
+
+}
